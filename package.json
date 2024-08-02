@@ -1,7 +1,14 @@
 {
-  "dependencies": {
-    "idb": "^8.0.0"
+  "name": "cautious-meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
@@ -12,14 +19,7 @@
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^7.1.0"
   },
-  "name": "text-editor-pwa",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "idb": "^8.0.0"
+  }
 }
